@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gloxopti"
+version = "1.0.0"
+description = "A Python library for optimizing JPEG, WebP, and PNG images with configurable optimization levels."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+authors = [
+    { name = "AvgLucer" }
+]
+
+keywords = [
+    "image",
+    "optimization",
+    "png",
+    "jpeg",
+    "webp",
+    "compression",
+    "python"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+dependencies = [
+    "Pillow"
+]
